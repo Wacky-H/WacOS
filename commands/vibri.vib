@@ -1,0 +1,144 @@
+command_vibri:
+
+	call os_clear_screen
+    
+    call os_command_init
+
+    mov bx, .VIB_A
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_B
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_C
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_D
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_E
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_F
+    call os_print_string
+    
+    call os_print_new_line
+
+    mov bx, .VIB_G
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_H
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_I
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_J
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_K
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_L
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_M
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_N
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_O
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_P
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_Q
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_R
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_S
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_T
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_U
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_V
+    call os_print_string
+
+    call os_print_new_line
+
+    mov bx, .VIB_W
+    call os_print_string
+
+    call os_command_finish
+
+.VIB_A: db "                 ....                   ",0
+.VIB_B: db "                .   ..        ...       ",0
+.VIB_C: db "               ..    .   ..   ..        ",0
+.VIB_D: db "                ..  ..  .   ..          ",0
+.VIB_E: db "                 ...........            ",0
+.VIB_F: db "         ..  .,'. .';,'';:'.            ",0
+.VIB_G: db "         ...,cooc...,'':ool'            ",0
+.VIB_H: db "           .;:ll:.    .,cc:'            ",0
+.VIB_I: db "           ......  ....   ..            ",0
+.VIB_J: db "           ..     ....   ..             ",0
+.VIB_K: db "                ..;;'.                  ",0
+.VIB_L: db "                 .;'...                 ",0
+.VIB_M: db "                .;'    .                ",0
+.VIB_N: db "               .,,.    ..               ",0
+.VIB_O: db "               ';;'...                  ",0
+.VIB_P: db "              .''.....                  ",0
+.VIB_Q: db "             ....                       ",0
+.VIB_R: db "            .. ..                       ",0
+.VIB_S: db "             ....                       ",0
+.VIB_T: db "               ....                     ",0
+.VIB_U: db "                .. .''.                 ",0
+.VIB_V: db "            ..........                  ",0
+.VIB_W: db "             .........                  ",0
