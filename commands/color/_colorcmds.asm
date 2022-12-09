@@ -1,0 +1,1 @@
+%include "commands/color/color.asm"
